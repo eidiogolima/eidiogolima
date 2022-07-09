@@ -1,4 +1,4 @@
-### Olá eu sou o Diogo Lima, Desenvolvedor Fron-end👋
+### Olá eu sou o Diogo Lima, Desenvolvedor Front-end👋
 
 - Juntos podemos mais.
 - Transformando o mundo com tecnologia.

@@ -1,4 +1,4 @@
-### Olá eu sou o Diogo Lima, Desenvolvedor Front-end👋
+### Olá eu sou o Diogo Lima, Desenvolvedor Full-Stack & UX/UI Designer👋
 
 - Juntos podemos mais.
 - Transformando o mundo com tecnologia.

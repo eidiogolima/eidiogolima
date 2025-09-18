@@ -1,8 +1,4 @@
-### Olá eu sou o Diogo Lima, Desenvolvedor Full-Stack & UX/UI Designer👋
-
-- Juntos podemos mais.
-- Transformando o mundo com tecnologia.
-- Mentor do Sistema
+### Olá eu sou o Diogo Lima, Desenvolvedor Full-Stack Laravel + PHP👋
 
 <div align="center">
   <a href="https://github.com/eidiogolima">

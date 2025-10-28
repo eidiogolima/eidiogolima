@@ -1,4 +1,4 @@
-### Olá eu sou o Diogo Lima, Desenvolvedor Full-Stack Laravel + PHP👋
+### Olá eu sou o Diogo Lima, Desenvolvedor Back-End Laravel + PHP👋
 
 <div align="center">
   <a href="https://github.com/eidiogolima">

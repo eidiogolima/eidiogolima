@@ -1,5 +1,4 @@
-### Olá eu sou o Diogo Lima, Desenvolvedor Back-End Laravel + PHP👋
-
+### Hi, i´m a Laravel back-end developer with experience in building APIs ^_____^
 
 <div style="display: inline_block"><br>
   <img align="center"  height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />   

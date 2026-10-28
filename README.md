@@ -107,12 +107,7 @@ Systems Analysis and Development, UNINTER (in progress, expected 2029) · Certif
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=eidiogolima&show_icons=true&hide_border=true&count_private=true&theme=tokyonight" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eidiogolima&layout=compact&hide_border=true&langs_count=6&theme=tokyonight" />
-
 <img src="https://streak-stats.demolab.com?user=eidiogolima&theme=tokyonight&hide_border=true" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=eidiogolima&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8" />
 
 <br/>
 

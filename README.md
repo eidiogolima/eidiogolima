@@ -1,4 +1,12 @@
-# Hi, I'm Diogo Lima 👋
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:2F81F7&height=140&section=header&text=Diogo%20Lima&fontSize=48&fontColor=ffffff&fontAlignY=40" width="100%" />
+
+<a href="https://github.com/eidiogolima">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Senior+PHP+%2F+Laravel+Engineer;6+years+building+production+systems;APIs+%C2%B7+High+Availability+%C2%B7+Performance;Open+to+Senior+Back-end+roles" alt="Typing animation" />
+</a>
+
+</div>
 
 **Senior PHP / Laravel engineer · 6 years in production.** I build APIs, high-availability systems and full-stack products where performance and uptime directly affect revenue.
 
@@ -92,6 +100,28 @@ I lead legacy modernization, architecture decisions and code quality, and connec
 ## 🎓 Education
 
 Systems Analysis and Development, UNINTER (in progress, expected 2029) · Certifications: Advanced PHP Development; PHP/WordPress REST API; Front/Back End & UX/UI Design.
+
+---
+
+## 📊 GitHub stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=eidiogolima&show_icons=true&hide_border=true&count_private=true&theme=tokyonight" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eidiogolima&layout=compact&hide_border=true&langs_count=6&theme=tokyonight" />
+
+<img src="https://streak-stats.demolab.com?user=eidiogolima&theme=tokyonight&hide_border=true" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=eidiogolima&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8" />
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eidiogolima/eidiogolima/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/eidiogolima/eidiogolima/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
 
 ---
 

@@ -33,9 +33,66 @@ I lead legacy modernization, architecture decisions and code quality, and connec
 
 ---
 
+## 🏗️ Architecture I designed
+
+<details>
+<summary><b>High availability with failover under 1 minute</b></summary>
+
+<br/>
+
+Outages of a few hours used to cause 50+ refund requests and lost sales. After this design, outages no longer produced refunds or lost sales.
+
+```mermaid
+flowchart LR
+    U([Users]) --> CF{{"Cloudflare<br/>Load Balancing<br/>+ health checks"}}
+    CF -->|healthy| P["Primary server"]
+    CF -.->|"failover < 1 min"| S["Standby server"]
+    P --> DB[("Database")]
+    S --> DB
+    P -.->|"unhealthy"| CF
+```
+
+</details>
+
+<details>
+<summary><b>Resilient checkout: decoupled from an external API</b></summary>
+
+<br/>
+
+Orders used to fail whenever the external API was down. Moving that call to background processing took order completion during its outages from 0% to 100%.
+
+```mermaid
+sequenceDiagram
+    participant C as Customer
+    participant K as Checkout
+    participant Q as Queue
+    participant W as Worker
+    participant X as External API
+    C->>K: Place order
+    K->>Q: Enqueue integration job
+    K-->>C: Order confirmed
+    Q->>W: Dispatch job
+    W->>X: Call API
+    alt API unavailable
+        X--xW: Error
+        W->>Q: Retry later
+    else API available
+        X-->>W: Success
+        W->>K: Update order
+    end
+```
+
+</details>
+
+---
+
 ## 💼 Experience
 
-**SP Certificado Digital** · Full-Stack PHP/Laravel Developer · *Jan 2024 – present*
+<details open>
+<summary><b>SP Certificado Digital</b> · Full-Stack PHP/Laravel Developer · <i>Jan 2024 – present</i></summary>
+
+<br/>
+
 - Designed the high-availability architecture (standby server + Cloudflare Load Balancing) with failover under 1 minute.
 - Decoupled checkout from an external API using background jobs, so orders complete even when that API is down.
 - Optimized SQL and Laravel components behind dashboards, cutting load times by ~99.7%.
@@ -43,19 +100,39 @@ I lead legacy modernization, architecture decisions and code quality, and connec
 - Rebuilt event and conversion tracking to fix gaps in the purchase journey and guide campaign investment.
 - Led the Laravel 8 → 12 migration, hardened document access control and added observability with Grafana.
 
-**BURH** · Full-Stack PHP/Laravel Developer · *Oct 2025 – Sep 2026*
+</details>
+
+<details>
+<summary><b>BURH</b> · Full-Stack PHP/Laravel Developer · <i>Oct 2025 – Sep 2026</i></summary>
+
+<br/>
+
 - Worked on APIs and systems of a platform with 20+ products: architecture decisions, code reviews, CI/CD, Docker, queues and scheduled jobs.
 - Led **Trackiou**: integrates browsing and conversion data with Google Ads and Meta Ads to follow the journey through to the sale.
 - Led **Spotei**: internal SDR platform with pipeline, goals and automations, centralizing lead management.
 - Built a React / Next.js scheduling interface on top of calendar APIs for recruiters.
 - Defined guidelines for the safe adoption of AI in backend development, preserving code and security standards.
 
-**ZipSign** · Back-end PHP/Laravel Developer · *Jan 2023 – Jan 2024*
+</details>
+
+<details>
+<summary><b>ZipSign</b> · Back-end PHP/Laravel Developer · <i>Jan 2023 – Jan 2024</i></summary>
+
+<br/>
+
 - Built credits, plans, dashboards and admin tools for an e-signature platform, plus payment gateway integrations.
 - Contributed to moving private documents to Amazon S3 and built REST APIs with stronger access security.
 
-**Comprar Site** · PHP Developer · *Jan 2020 – Jan 2023*
+</details>
+
+<details>
+<summary><b>Comprar Site</b> · PHP Developer · <i>Jan 2020 – Jan 2023</i></summary>
+
+<br/>
+
 - Built and maintained PHP/Laravel web solutions, REST integrations and SQL queries; helped raise delivery speed by ~50% through agile process improvements.
+
+</details>
 
 ---
 

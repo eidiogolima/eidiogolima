@@ -167,6 +167,22 @@ sequenceDiagram
 
 ## 📌 Public work
 
+### 🤝 Open source, built for the community
+
+[![laravel-vue-boilerplate](https://img.shields.io/badge/laravel--vue--boilerplate-open%20source-2F81F7?style=for-the-badge&logo=laravel&logoColor=white)](https://github.com/eidiogolima/laravel-vue-boilerplate)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](https://github.com/eidiogolima/laravel-vue-boilerplate/blob/main/LICENSE)
+
+**[laravel-vue-boilerplate](https://github.com/eidiogolima/laravel-vue-boilerplate)** is a free, MIT-licensed starting point for Laravel 13 + Vue 3 + Inertia projects, so other developers can skip the setup and start on the product:
+
+- Authentication with passkeys and 2FA, admin panel and notifications
+- Interface in English, Spanish and Brazilian Portuguese (i18n)
+- Quality gates from day one: strict typing, PHPStan, Pest and a CI pipeline
+- Project rules documented for AI-assisted development with Claude Code
+
+Contributions, issues and stars are welcome.
+
+### 🧩 Other
+
 | Project | What it shows |
 | --- | --- |
 | [Trackiou](https://trackiou.cloud/) | Traffic, attribution and lead-tracking platform (UTMs, Google/Meta Ads, organic and AI referrals) |

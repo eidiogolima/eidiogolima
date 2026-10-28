@@ -169,7 +169,6 @@ sequenceDiagram
 
 | Project | What it shows |
 | --- | --- |
-| [MySQL Master–Master Replication (Docker)](https://github.com/eidiogolima/mysql-master-master-replication-docker-high-availability) | High availability, GTID bidirectional replication, dev/prod setups and operational scripts |
 | [Trackiou](https://trackiou.cloud/) | Traffic, attribution and lead-tracking platform (UTMs, Google/Meta Ads, organic and AI referrals) |
 
 > Most of my work lives in private repositories. Happy to walk through architecture and decisions in an interview.
